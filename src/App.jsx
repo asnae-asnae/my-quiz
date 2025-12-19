@@ -445,7 +445,7 @@ export default function  QuizAboutMe() {
     <>
       {/* Audio elements - Always rendered */}
       <audio ref={audioRef} loop>
-        <source src="/song.mp3.mpeg" type="audio/mpeg" />
+        <source src="/song.mp3" type="audio/mpeg" />
       </audio>
       {/* Music Toggle Button */}
       <button
