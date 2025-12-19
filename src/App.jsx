@@ -12,21 +12,21 @@ export default function ApologyJourney() {
   const apologySteps = [
     {
       title: "I've been thinking...",
-      text: "I couldn't sleep because my heart is heavy.please khlitili seen 🥺 its ok I just felt so bad letting you go to bed upset without asking about your day or how you’re doing. It hurts me to know you fell asleep feeling that way. 😔",
+      text: "I couldn't sleep because my heart is heavy.please khlitili seen 🥺 its ok.I just felt so bad letting you go to bed upset without asking about your day or how you’re doing. It hurts me to know you fell asleep feeling that way. 😔",
       emoji: "💭",
       buttonText: "Keep reading...my beautiful girl",
       animation: "hearts"
     },
     {
-      title: "I'm Truly Sorry my Hind",
-      text: "I know I can be difficult sometimes,not dima thou hhh and I'm sorry for how I acted. and wlh i love you so much o i do not like no one but you.please You deserve the world i promise mn hade nhar i do my best to make you feel safe and happy, not upset. 💕",
+      title: "I'm Truly Sorry baby",
+      text: "I know I can be difficult sometimes,not dima thou hhh and I'm sorry for how I acted. and wlh i love you so much. o i do not like no one but you.please You deserve the world. i promise mn hade nhar i do my best to make you feel safe and happy, not upset. 💕",
       emoji: "🌹",
       buttonText: "I have more to say...",
       animation: "sparkles"
     },
     {
       title: "You're My Everything",
-      text: "Even when we're mad, you're still the person I want to talk to the most. I love you more than words can explain,please i know you are sick and hate myself i can not do anything to help you but my heart is always with u hope tewli mzyan.❤️",
+      text: "Even when we're mad, you're still the person I want to talk to the most. I love you more kter maktkhyeli,please i know you are sick and hate myself i can not do anything to help you but my heart is always with u hope tewli mzyan.❤️",
       emoji: "✨",
       buttonText: "The final truth...",
       animation: "stars"
@@ -117,12 +117,11 @@ export default function ApologyJourney() {
       
       {showWelcome ? (
         <div style={styles.card}>
-          <div style={{fontSize: '80px', marginBottom: '20px'}}>🐱❤️</div>
+          <div style={{fontSize: '80px', marginBottom: '20px'}}>🥹🌸</div>
           <h1 style={styles.title}>For Hind</h1>
-          <p style={styles.text}>I couldn't sleep bla ma ngoul lik sorry. Please love read this when you wake up 🥺.
-            <br /> click below.</p>
+          <p style={styles.text}>I couldn't sleep bla ma ngoul lik sorry. Please love read this when you wake up. I love you so much ❤️</p>
           <button style={styles.button} onClick={() => { setShowWelcome(false); startMusic(); }}>
-            Open it... 💌
+            Open this... 🍄
           </button>
         </div>
       ) : currentStep < apologySteps.length ? (
